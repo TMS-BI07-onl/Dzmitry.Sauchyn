@@ -1,0 +1,30 @@
+Well done! 
+
+2. Please pay attention to the last task in the homework and send me only tasks that are requested :)
+
+4. 
+a) -1 
+Correct answer: ... WHERE LastName LIKE 'M%' OR NOT EmailPromotion LIKE '%1%'. 
+Pay attention to words that connect conditions. 
+Second condition is not "equal", it's "including". For example, if after next data update there is a EmailPromotion 3451654, it should be added to the final result set.
+c) 
+Try to use one query to solve the task. There is no particular reason to divide calculation of weight and sum to two different queries. This issue also appears in next queries.
+d) -0.5 
+Expected answer:
+	SELECT  ProductSubcategoryID,
+		MIN(Weight) AS Min_weight, 
+		MAX(Size) AS Max_size
+	FROM Production.Product
+	GROUP BY ProductSubcategoryID
+Lets talk about conditions that you applied in the WHERE clause: 
+- Weight with NULL will not be calculated in the min function. When they appear in the result set, it means that there are no results, which is correct.
+- Filtration on ProductSubcategoryID is not required. NULL ids can have rows, weights and sizes.
+I understand your position and why you applied these filters. Probably, you thought that it's more correct from the business side. But you overthink the task. 
+e) -0.5
+The same issue as in the d. 
+
+Also, test queries are just for your purposes. I do not need them, I just want to see final result.
+
+
+Mark: 8.
+
