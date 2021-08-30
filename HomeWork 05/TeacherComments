@@ -1,0 +1,14 @@
+Well done!
+
+7.
+Please use CONCAT instead of +. In this task you definitely know that ine of the values can be NULL. Using +, you will get null email.
+
+10. -0.5
+Try to create all objects with code.
+Correct answer:
+CREATE VIEW Patients_v AS
+SELECT *,
+	Temp*9/5+32 AS Temp_F
+FROM Patients
+
+Mark: 10.
