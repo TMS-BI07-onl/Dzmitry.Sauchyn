@@ -1,0 +1,11 @@
+Well done!
+
+-2
+In the 3nf we need to have table to store relations between dimensions (fact tables). You showed only dimensions, but from your model we can't see the intersection between two datasets (for example, who owns each car).
+It's repeateble mistake for all your answers.
+
+E -0.5
+If you already started to move location attributes, you need to do it for all of them.
+
+Mark: 8. 
+
