@@ -1,0 +1,8 @@
+Well done!
+
+In the .sql format russian symbols is not transforming to the unicode, so all your comments are now unreadable.
+If you had any questions to me, ask again in the other form :)
+
+Also, I strongly advise to add named constraints.
+
+Mark: 10.
