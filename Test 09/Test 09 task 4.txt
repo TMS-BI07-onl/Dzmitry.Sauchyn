@@ -1,0 +1,10 @@
+Employees (EmployeeID, FirstName, LastName, DateOfBirthday, PassportNumber, PhoneNumber)
+Departments (DepartmentID, EmployeeID, Department, Position, Supervisor)
+Animals (AnimalID, KindOfAnimal, AnimalName, Location, AnimalOwner(=EmployeeID))
+FoodWarehouse (FoodWarehouseID, FoodID, DateOfManufacture, ExpirationDate, AnimalID)
+Food (FoodID, TypeOfFood, NutritionalValue, Cost)
+Sponsors (SponsorID, AnimalID, FirstName, LastName, PhoneNumber)
+Visitors (VisitorsID, DateOfVisit, TicketPrice)
+
+Найти имена сотрудников и их руководителей.
+Сколько составляет спонсорская помощь для покупки еды для львов.
