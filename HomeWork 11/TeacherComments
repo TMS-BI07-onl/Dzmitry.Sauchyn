@@ -1,0 +1,22 @@
+Well done!
+
+Homework
+-1
+The requiremet was to create a table with two columns. 
+Also by having first column as functions list you have all counts -1.
+0 can't be shown, because you always adding +1 to all the rows that should be updates. That rows that should have 0 by your idea are not matched.
+
+
+Test
+1
+-2
+New columns are not needed. Tables should be connected through Диспетчерская.
+Your code will return an error, because you don't have ФИО in the inner query. Also there is a typo in word "DESC"
+
+2
+-1
+New column is not needed. You can join through Водители by номер паспорта.
+
+
+Mark: 9
+Test: 7
